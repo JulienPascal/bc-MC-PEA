@@ -19,6 +19,20 @@ Solve an exact linear expectations model, which can be interpreted as Cagan's Mo
 
 The notebooks in this folder were executed on Google Colab (CPU, High RAM mode). The notebooks created zip files, that were then downloaded and moved inside this repository.
 
+
+### Folder `3.irreversible_investment`
+Solve stochastic growth model with irreversible investment, using a **regression-based approach.**
+- `irreversible_investment_Colab_9.ipynb`: compares accuracy and speed for several choices of M and N. Creates Figure 2 and 3.
+This notebook executed on Google Colab (CPU, High RAM mode). It creates the .zip file `irreversible_investment_Colab_9.zip`, that was then downloaded and moved inside this repository.   
+- `irreversible_investment_2.ipynb`: notebook executed locally, to create Figure 4 (`example_simlation_binding_3x2.pdf`)
+
+### Folder `4.irreversible_investment_SGD`
+Solve stochastic growth model with irreversible investment, using a **gradient-descent approach.**
+- `irreversible_investment_SGD_Colab_4.ipynb`: uses SGD, creates Figure 5.
+- `irreversible_investment_SGD_Colab_5.ipynb`: uses Adam, creates Figure 6.
+
+The notebooks in this folder were executed on Google Colab (CPU, High RAM mode). The notebooks created zip files, that were then downloaded and moved inside this repository.
+
 ---
 
 ### Computational details
